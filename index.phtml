@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="<?= $langCode; ?>" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="google-site-verification" content="EA5B-_uMG1CweSR0g11exA0j2hleCpSSxqkVa_DZQvM" />
+    <title>Robert Petrenko - <?= $translations["site_title"];?></title>
+    <meta name="description" content="<?= $translations["meta_description"];?>" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" media="all">
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css" media="screen" />
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+    <header>
+        <nav id="main-menu" class="main-menu sticky" aria-label="Main menu">
+            <div class="logo-block">
+                <a href="#hello"><img src="img/dark-logo.png" alt="logo" class="logo"></a>
+                <!-- <img src="img/fr.png" alt="flag icon" class="flag-icon"> -->
+            </div>
+            <ul class="topnav" id="topnav">
+                <a href="javascript:void(0);" class="nav-icon" id="nav-button">
+                    <i class="fa fa-bars"></i>
+                </a>
+                <li><a href="#experience">Projets</a></li>
+                <li><a href="#skills">Expérience</a></li>
+                <li><a href="#about">À propos</a></li>             
+                <li><a href="#contact">Contact</a></li>
+                <li><a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/open?id=1AwdKpWO1AQx1V8MwX8Hqo5RKp5463dED">CV</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="hello" class="page-block">
+            <div class="hello-content">
+                <div>
+                <h1 class="heading show-on-scroll"><small><?= $translations["hello_title"];?> </small>Robert Petrenko</h1>
+                    <p class="heading show-on-scroll"><?= $translations["hello_p1"];?></p>
+                    <p class="heading show-on-scroll">J'ai eu ma premiere expérience professionnelle dans une agence web Smile Open Source Solutions en tant que développeur Drupal 8. Il y a un an j'ai suivi et validé la formation de développement front-end et back-end en-ligne et à la 3W Academy à Aix-en-Provence.</p>
+                    <p class="heading show-on-scroll">Je parle couramment 4 langues - français, anglais, russe et estonien.</p>
+                </div>
+                <img src="img/me.jpg" alt="ma photo" class="my-photo">
+            </div>
+            <div class="shape-divider">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
+                    <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
+                    <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
+                </svg>
+            </div>
+        </section>
+        <section id="experience" class="page-block">
+            <h2>Derniers projets</h2>
+            <ul class="experience-list">
+                <li class="experience-block show-on-scroll effect-margin">
+                    <a target="_blank" rel="noopener noreferrer" href="https://fr.captaintortue.com/">
+                        <img src="img/ct.png" alt="project captain tortue">
+                    </a>
+                    <a target="_blank" rel="noopener noreferrer" href="https://fr.captaintortue.com/">
+                        <h3>Captain Tortue Réalisation d'un intranet Drupal 8 (Smile)</h3>
+                    </a>    
+                    <ul class="experience-description show-on-scroll">
+                        <li>Création de back office en utilisant le module Paragraph</li>
+                        <li>Développement de modules</li>
+                        <li>Utilisation du plugin JQuery DataTables</li>
+                        <li>Intégration des maquettes graphiques (Twig, Sass)</li>
+                    </ul>
+                </li>
+                <li class="experience-block show-on-scroll effect-margin">
+                    <a target="_blank" rel="noopener noreferrer" href="https://www.geneve.ch/fr">
+                        <img src="img/vdg.png" alt="project ville de geneve">
+                    </a>
+                    <a target="_blank" rel="noopener noreferrer" href="https://www.geneve.ch/fr">
+                        <h3>TMA du site de la ville de Genève, Drupal 8  (Smile)</h3>
+                    </a>    
+                    <ul class="experience-description">
+                        <li>Développement divers (front et back-end, back office),maintenance de site</li>
+                        <li>Application des patches, creation de hooks update</li>
+                    </ul>
+                </li>
+                <li class="experience-block show-on-scroll">
+                    <a target="_blank" rel="noopener noreferrer" href="https://www.mucem.org">
+                        <img src="img/mucem.png" alt="project mucem">
+                    </a>
+                    <a target="_blank" rel="noopener noreferrer" href="https://www.mucem.org">
+                        <h3>TMA du site du MUCEM, Drupal 8  (Smile)</h3>
+                    </a>    
+                    <ul class="experience-description">
+                        <li>Développement divers (front et back-end, back office),maintenance de site</li>
+                    </ul>
+                </li>
+                <li class="experience-block show-on-scroll">
+                    <a target="_blank" rel="noopener noreferrer" href="https://robertpetrenko.me/meteo/">
+                        <img src="img/meteo_app.png" alt="meteo app">
+                    </a>
+                    <a target="_blank" rel="noopener noreferrer" href="https://robertpetrenko.me/meteo/">
+                        <h3><?= $translations["experience_h3_2"];?></h3>
+                    </a> 
+                    <p class="experience-description">Utilisation de la POO en JS, JQuery, API Dark Sky (données météo), API Google geocoding</p>
+                </li>
+                <li class="experience-block show-on-scroll">
+                    <a target="_blank" rel="noopener noreferrer" href="https://robertpetrenko.me/player/">
+                        <img src="img/player_img.png" alt="music player app">
+                    </a>
+                    <a target="_blank" rel="noopener noreferrer" href="https://robertpetrenko.me/player/">
+                        <h3><?= $translations["experience_h3_1"];?></h3>
+                    </a>    
+                    <p class="experience-description">Utilisation de la POO en JS, JQuery et web components</p>
+                </li>
+            </ul>
+        </section>
+        <section id="skills" class="skills-page-block">
+            <section id="education" class="skills-page-block-item">
+                <h2> Expérience professionnelle</h2>
+                <article>
+                    <h3>Developper Drupal 8, Agence Web Smile, Marseille</h3>
+                    <p class="date">01.2020 - 07.2020</p>
+                    <p>Développement de modules et themes, création d'interfaces d'administration, intégration de maquettes graphiques</p>
+                </article>
+                <article>
+                    <p class="date">2009 - 2019</p>
+                    <p>Actif dans le secteur de l’hôtellerie-restauration.</p>
+                </article>
+                <h2><?= $translations["education_title"];?></h2>
+                <article>
+                    <ul>
+                        <li>
+                            <p class="date">2019</p>
+                            <p><?= $translations["education_3wa"];?></p>
+                        </li>
+                        <li>
+                            <p class="date">2009-2012</p>
+                            <p><?= $translations["education_uni"];?></p>
+                        </li>
+                        <li>
+                            <p class="date">2006-2009 </p>
+                            <p><?= $translations["education_eng"];?></p>
+                        </li>
+                    </ul>
+                </article>
+            </section>
+            <section id="skills-list" class="skills-page-block-item">
+                <h2><?= $translations["skills_title"];?></h2>
+                <article class="skills-card show-on-scroll">
+                    <div class="skills-card-header">
+                        <h3>WEB</h3>
+                        <img src="img/web2.png" alt="skill icon" class="skill-icon">
+                    </div>
+                    <div class="language-lists skills-card-body">
+                        <ul class="web-skills-list">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Sass</li>
+                            <li>Twig</li>
+                            <li>JavaScript</li>
+                            <li>jQuery</li>
+                        </ul>
+                        <ul>
+                            <li>PHP</li>
+                            <li>MySQL</li>
+                            <li>Drupal 8</li>
+                            <li>Bootstrap</li>
+                            <li>WordPress</li>
+                        </ul>
+                    </div>
+                </article>
+                <article class="skills-card show-on-scroll">
+                    <div class="skills-card-header">
+                        <h3>OS</h3>
+                        <img src="img/os2.png" alt="skill icon" class="skill-icon">
+                    </div>
+                    <div class="skills-card-body">
+                        <ul>
+                            <li>Ubuntu</li>
+                            <li>Mac OS</li>
+                            <li>Windows</li>
+                        </ul>
+                    </div>
+                </article>
+                <article class="skills-card show-on-scroll">
+                    <div class="skills-card-header">
+                        <h3>Gestion de projet</h3>
+                        <img src="img/project.png" alt="skill icon" class="skill-icon">
+                    </div>
+                    <div class="skills-card-body">
+                        <ul>
+                            <li>GIT</li>
+                            <li>Redmine</li>
+                        </ul>
+                    </div>
+                </article>
+                <article class="skills-card show-on-scroll">
+                    <div class="skills-card-header">
+                        <h3>IDE</h3>
+                        <img src="img/ide.png" alt="skill icon" class="skill-icon">
+                    </div>
+                    <div class="skills-card-body">
+                        <ul>
+                            <li>PhpStorm</li>
+                            <li>Visual Studio Code</li>
+                        </ul>
+                    </div>
+                </article>
+            </section>
+        </section>
+        <section id="about" class="page-block">
+            <h2><?= $translations["about_title"];?></h2>
+            <p><?= $translations["about_p1"];?></p>
+            <p><?= $translations["about_p2"];?></p>
+            <p class="extra-space-before-divider"><?= $translations["about_p3"];?></p>
+            <div class="curve-divider">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M741,116.23C291,117.43,0,27.57,0,6V120H1200V6C1200,27.93,1186.4,119.83,741,116.23Z" class="curve-shape-fill"></path>
+                </svg>
+            </div>
+        </section>
+        <section id="contact" class="page-block">
+            <h2>Contact</h2>
+            <div class="contact-page">
+                <form action="index.php" method="post" id="form">
+                    <div id="result"></div>
+                    <label for="name"><?= $translations["contactform_name"];?></label>
+                    <input type="text" id="name" class="form-field" name="name" placeholder="Nom" required>
+                    <label for="mail">E-mail</label>
+                    <input type="email" id="mail" class="form-field" name="email" placeholder="E-mail" required>
+                    <label for="msg">Message</label>
+                    <textarea rows="7" id="msg" class="form-field" name="message"
+                        placeholder="Votre message..." required></textarea>
+                    <button type="submit" name="submit" class="submit-button non-active-button" id="submit-button" disabled>Envoyer</button>
+                </form>
+                <section>
+                    <p><?= $translations["contact_me"];?></p>
+                    <ul>
+                        <li class="contact-data-label"><?= $translations["contact_phone"];?> :
+                            <a href="tel:+33610923678" id="phone-link">
+                                <div id="myPhone"></div>
+                            </a>
+                        </li>
+                        <li class="contact-data-label">E-mail :
+                            <a href="" target="_blank" rel="noopener noreferrer"
+                                id="mail-link">
+                                <div id="myMail"></div>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="social">
+                        <li>
+                            <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/robert-petrenko/"><img src="img/in.png" alt="linkedin icon" class="social-icon"></a>
+                        </li>
+                        <li>
+                            <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/robert.petrenko.7?ref=bookmarks"><img src="img/fb.png" alt="facebook icon" class="social-icon"></a>
+                        </li>
+                        <li>
+                            <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/open?id=1AwdKpWO1AQx1V8MwX8Hqo5RKp5463dED" target="_blank" rel="noopener noreferrer" id="cv"><img src="img/cv.png" alt="cv icon" class="social-icon"></a>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+        </section>
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
